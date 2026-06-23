@@ -3983,8 +3983,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "511"
-			(at 104.648 43.18 90)
+		(property "Value" "511R"
+			(at 105.664 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4064,7 +4064,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x14"
+		(property "Value" "1x14"
 			(at 181.61 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +4674,7 @@
 				)
 			)
 		)
-		(property "Value" "499"
+		(property "Value" "499R"
 			(at 166.116 89.916 90)
 			(show_name no)
 			(do_not_autoplace no)
