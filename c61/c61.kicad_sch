@@ -4335,7 +4335,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "Crystal 40MHz"
 			(at 134.62 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
