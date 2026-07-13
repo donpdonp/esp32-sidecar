@@ -124,7 +124,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "out/2026-jul-10/")
+			(outputdirectory "out/2026-jul-10-jlcpcb/")
 		)
 	)
 	(footprint "somethingfootprints:SFV24R3STBE1HLF"
@@ -1184,7 +1184,8 @@
 		(path "/f254436a-0844-46df-a17e-c5394d4cfdd0")
 		(sheetname "/")
 		(sheetfile "c61.kicad_sch")
-		(attr smd)
+		(solder_mask_margin 0.1)
+		(attr smd allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.61 -2.61)
