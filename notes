@@ -1,10 +1,31 @@
 
-PCB 14 July 2026
 [C61] 
+
+PCB 14 July 2026
 expands to very large VIAs in the esp32 ground pad. allows for excess solder to flow out
 
 PCB 27 July 2026
-[C61] 
 reduce oversized footprint for crystal
 add 10 microFarad battery cap (as compared to 0.1 microFarad 'decoupling' cap)
 
+2026-Jul-29
+add USB +/- to pin headers 
+
+PCB 11 Aug 2026
+https://nodeloop.org/tools/crystal-load-capacitor-calculator/?cl=10&cs=4
+
+ * Most 4-pad SMD crystals use 2 pads for the electrodes (signal) and 2 pads as mechanical NC (not connected). Do not connect NC pads to ground by default – this can increase Cstray unpredictably. Check the crystal datasheet for pinout. If a shield/case pad is specified, the datasheet will indicate whether to connect it to ground. Passive MCU crystals rarely use differential drive (4 active pins).
+
+ * X7R capacitors can vary ±15% with temperature (-55°C to +125°C). This causes huge frequency drift. NP0/C0G capacitors have ±30ppm/°C stability – essential for oscillators. The extra cost (~$0.05) is worth it.
+
+ * use a VNA or capacitance meter on the unpopulated PCB. Typical values: 2-3pF for good layout, 5-7pF for average, 10pF+ for poor layout.
+
+
+13 Aug 2026
+add vIN cap and vOUT cap to power regulator
+add resistor to status LED
+back side ground plane
+
+CH572 QingKe 32bit risc-V3C core $0.30/each 12k ram, 256k flash, 5-3v regulator
+"The CH572 is a RISC-V MCU/SoC with integrated 2.4G wireless communication. 2Mbps BLE communication module, USB full-speed controller and transceiver"
+CH585 QingKe 32bit RISC-V3C core RV32IMBC / 128KB SRAM, 512KB Flash, support ICP, ISP and IAP, / 2.4GHz BLE 5.4
