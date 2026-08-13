@@ -2,14 +2,13 @@
 [C61] 
 
 PCB 14 July 2026
-expands to very large VIAs in the esp32 ground pad. allows for excess solder to flow out
+[X] expands to very large VIAs in the esp32 ground pad. allows for excess solder to flow out
 
 PCB 27 July 2026
-reduce oversized footprint for crystal
-add 10 microFarad battery cap (as compared to 0.1 microFarad 'decoupling' cap)
+[X] reduce oversized footprint for crystal
 
 2026-Jul-29
-add USB +/- to pin headers 
+[X] add USB +/- to pin headers 
 
 PCB 11 Aug 2026
 https://nodeloop.org/tools/crystal-load-capacitor-calculator/?cl=10&cs=4
@@ -22,9 +21,9 @@ https://nodeloop.org/tools/crystal-load-capacitor-calculator/?cl=10&cs=4
 
 
 13 Aug 2026
-add vIN cap and vOUT cap to power regulator
-add resistor to status LED
-back side ground plane
+[X] add vIN cap and vOUT cap to power regulator
+[X] add resistor to status LED
+[X] back side ground plane
 
 CH572 QingKe 32bit risc-V3C core $0.30/each 12k ram, 256k flash, 5-3v regulator
 "The CH572 is a RISC-V MCU/SoC with integrated 2.4G wireless communication. 2Mbps BLE communication module, USB full-speed controller and transceiver"

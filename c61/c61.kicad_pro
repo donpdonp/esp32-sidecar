@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.5,
-          "width": 0.5
+          "drill": 0.0,
+          "height": 3.3,
+          "width": 3.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -242,6 +242,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -537,7 +545,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "out/2026-jul-10/",
+      "plot": "out/2026-aug-13/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -661,7 +669,7 @@
         "uuid": "f9bd850f-e7d6-4e73-a470-eb7a4323e781"
       }
     ],
-    "used_designators": "J1-2",
+    "used_designators": "R9,C8,#PWR16",
     "variants": []
   },
   "sheets": [
